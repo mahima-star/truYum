@@ -1,0 +1,163 @@
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */
+
+button {
+  background-color: cyan; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #34495e;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #f39c12;
+}
+#header-container{
+  background-color: blue;
+   margin: 0;
+}
+#header-container ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ 
+}
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover {
+ background-color: #111;
+}
+
+#section-container h1{
+   text-align: center;
+}
+
+input[type=text], input[type=password] {
+ width: 30%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ background-color: lightblue;
+}
+
+input[type=reset] {
+ width: 20%;
+ background-color: #4CAF50;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+#result{
+   color: red;
+   font-size: 30px;
+}
+
+table {
+ width:80%;
+}
+
+#menuTable tr:nth-child(even) {
+ background-color: #90EE90;
+}
+#menuTable tr:nth-child(odd) {
+background-color: #ADD8E6;
+}
+#menuTable th {
+ background-color: brown;
+ color: white;
+}
+
+th, td {
+ padding: 8px;
+ text-align: center;
+}
+
+#form-container{
+   width: 80%;
+   margin: auto;
+}
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */
